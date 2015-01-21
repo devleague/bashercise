@@ -74,16 +74,15 @@ right?
 
 Perform the following steps:
 
-- [ ] Create a `mywork` folder
-- [ ] Prove you can manage files and folders inside it
-  - [ ] Make empty files: `empty1`, `empty2`
-  - [ ] Make directories: `dir1`, `dir2`, `dir3`
-  - [ ] Copy a directory into another directory: `dir1` to `mywork/`
-  - [ ] Copy files into directories: `empty1` and `empty2` into `mywork/dir1/`
-  - [ ] Move directories into other directories: `dir2` into `mywork/`
-  - [ ] Symlink to a directory: `sym1` to `empty1`
-  - [ ] Delete a directory: `dir3`
-  - [ ] Add a `.gitignore` file inside the `dir1/` directory and ignore `node_modules`
+- [ ] Create a `mywork` folder, do NOT change directory into this folder.
+- [ ] Make empty files: `empty1`, `empty2`
+- [ ] Make directories: `dir1`, `dir2`, `dir3`
+- [ ] Copy a directory into another directory: `dir1` to `mywork/`
+- [ ] Copy files into directories: `empty1` and `empty2` into `mywork/dir1/`
+- [ ] Move directories into other directories: `dir2` into `mywork/`
+- [ ] Symlink to a directory: `sym1` to `empty1`
+- [ ] Delete a directory: `dir3`
+- [ ] Add a `.gitignore` file inside the `dir1/` directory and ignore `node_modules`
 
 Test yourself by running `bats tests/workdir.bats`.
 
