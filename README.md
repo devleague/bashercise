@@ -74,7 +74,7 @@ right?
 
 Perform the following steps:
 
-- [ ] Create a `mywork` folder
+- [ ] Create a `mywork` folder, do NOT change directory into this folder.
 - [ ] Make empty files: `empty1`, `empty2`
 - [ ] Make directories: `dir1`, `dir2`, `dir3`
 - [ ] Copy a directory into another directory: `dir1` to `mywork/`
